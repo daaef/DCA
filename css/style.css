@@ -1,3 +1,24 @@
+#mcontainer{
+    max-width: 75%!important;
+}
+.uk-tab>li.uk-active{
+    background-color: #f83d34;
+}
+.uk-tab>.uk-active>a{
+    border: solid transparent;
+    color: #fff!important;
+}
+.uk-container.uk-container-expand {
+    padding: 0px;
+}
+.uk-tab>li>a{
+    border: solid transparent;
+    color: #fff!important;
+    text-transform: capitalize;
+}
+.uk-tab>* {
+    padding-left: 0px!important;
+}
 .uk-navbar{
     background-color: #c3dd3f!important;
 }
