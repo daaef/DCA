@@ -2,78 +2,97 @@
 <html id="Login-container">
 <head>
     <title>DCA Project</title>
-    <link rel="stylesheet" href="css/uikit.min.css" />
-    <link rel="stylesheet" href="css/style.css">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/style1.css">
 </head>
-<body>
-<div class="uk-container-expand">
-    <div class="uk-offcanvas-content">
-    <nav class="uk-navbar uk-grid-margin-small uk-navbar-container uk-margin" uk-sticky="bottom: #offset">
-        <div class="uk-navbar-left">
-            <a class="uk-navbar-toggle" href="#offcanvas-usage" uk-toggle>
-                <span uk-navbar-toggle-icon></span></a>
-            <a class="uk-navbar-item uk-logo" href="#">
-            <img id="logo" src="img/logonr.png" height="163" width="137"/></a>
-            <span>Dashboard</span>
-        </div>
-        <div class="uk-navbar-right">
-            <ul class="uk-navbar-nav uk-iconnav">
-                <li><a href="#" uk-icon="icon: file-edit"></a></li>
-                <li><a href="#" uk-icon="icon: mail"></a></li>
-                <li><a href="#" uk-icon="icon: social"></a></li>
-                <li><a href="#" uk-icon="icon: pull"></a></li>
-            </ul>
-        </div>
+<body class="login">
+<div id="wrapper">
+    <!-- Sidebar -->
+    <nav class="nav" id="sidebar-wrapper" role="navigation">
+        <ul class=" nav flex-column">
+            <li class="nav-item active">
+                <img class="ml-3" src="img/admin.png"> <a class="ml-2 nav-link active" href="#">Admin Dashboard</a>
+            </li>
+            <li class="nav-item">
+                <img class="ml-3" style="padding: 5px;" src="img/studentrec.png"> <a class="ml-2 nav-link" href="#">Student Records</a>
+            </li>
+            <li class="nav-item">
+                <img class="ml-3" style="width: 55px;" src="img/grants.png"> <a class="nav-link " href="#">Grants/Applications</a>
+            </li>
+            <li class="nav-item">
+                <img class="ml-3" style="padding: 5px;" src="img/mantags.png"> <a class="nav-link ml-2" href="#">Manage Tags/Categories</a>
+            </li>
+            <li class="nav-item">
+                <img class="ml-3" style="padding: 4px;"  src="img/settings.png"> <a class="nav-link ml-2" href="#">Settings</a>
+            </li>
+        </ul>
     </nav>
-        <div id="offcanvas-usage" uk-offcanvas>
-            <div class="uk-offcanvas-bar">
-                <div class="uk-width-1-1@s uk-width-1-1@m">
-                    <ul class="uk-nav uk-nav-default">
-                        <li class="uk-active"><a href="#"><img class="uk-margin-left" src="img/img.png" height="98" width="96"/><span class="uk-margin-left">Admin Dashboard</span></a></li>
-                        <li><a href="#"><img class="uk-margin-left" src="img/rec.png" height="98" width="96"/><span class="uk-margin-left">Student Records</span></a></li>
-                        <li><a href="#"><img id="grnt" class="uk-margin-left" src="img/grant.png" height="102" width="96"/><span class="uk-margin-left">Grants/ Applications</span></a></li>
-                        <li><a href="#"><img class="uk-margin-left" src="img/manage.png" height="98" width="96"/><span class="uk-margin-left">Manage Tags/ Categories</span></a></li>
-                        <li><a href="#"><img class="uk-margin-left" src="img/Settings.png" height="98" width="96"/><span class="uk-margin-left">Admin Dashboard</span></a></li>
-                    </ul>
-                </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+        <nav class="navbar sticky-top  navbar-toggleable-md navbar-light bg-faded">
+            <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+                <span class="hamb-top"></span>
+                <span class="hamb-middle"></span>
+                <span class="hamb-bottom"></span>
+            </button>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                <img src="img/logonr.png" width="30" height="30" alt=""><span class="ml-4">Dashboard</span>
+            </a>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="nav right">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#"><img class="img-fluid" src="img/edit.png"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><img class="img-fluid" src="img/keyhold.png"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><img class="img-fluid" src="img/message.png"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><img class="img-fluid" src="img/share.png"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><img class="img-fluid" src="img/download.png"></a>
+                </li>
+            </ul>
             </div>
+        </nav>
+        <div class="container">
+                <div class="row justify-content-center ten">
+                    <div class="text-center col-12">
+                        <img class="img-fluid" src="img/delyork.png">
+                        <h3 class="text-center mt-3 font-weight-bold">Log into your DCA Account</h3>
+                    </div>
+                    <div class="">
+                    <form class="justify-content-center align-content-center">
+                        <div class="form-group">
+                            <input type="text" class="form-control round" id="formGroupExampleInput" placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control round" id="formGroupExampleInput2" placeholder="Password">
+                        </div>
+                        <button type="submit" class="btn btn-outline-success bg-faded round color-black">Login</button>
+                        <button type="submit" class="btn btn-outline-success float-right bg-faded round color-black">Sign up</button>
+                    </form>
+                    </div>
+                </div>
         </div>
     </div>
-    <div id="Login-container" class="uk-container">
-        <div class="uk-position-small uk-position-center">
+    <!-- /#page-content-wrapper -->
 
-        <form>
-            <img id="icn" class="uk-align-center" src="img/logonr.png" height="163" width="137"/>
-            <p class="uk-text-center">Log into your DCA Account</p>
-            <div class="uk-margin">
-                <div class="uk-inline">
-                    <span class="uk-form-icon" uk-icon="icon: user"></span>
-                    <input class="uk-input rounded" type="text" placeholder="Name">
-                </div>
-            </div>
-
-            <div class="uk-margin">
-                <div class="uk-inline">
-                    <span class="uk-form-icon uk-form-icon-flip" uk-icon="icon: lock"></span>
-                    <input class="uk-input rounded" type="password" placeholder="Password">
-                </div>
-            </div>
-            <div class="uk-grid-small uk-child-width-expand@s uk-text-center" uk-grid>
-                <div>
-                    <a href="aboutStu.html" class="uk-button uk-button-small uk-button-default rounded bg-default">Login</a>
-                </div>
-                <div>
-                    <a href="signup.html" class="uk-button uk-button-small uk-button-default rounded bg-default">Signup</a>
-                </div>
-            </div>
-        </form>
-        </div>
-    </div>
 </div>
 <script src="js/jquery.js"></script>
-<script src="js/uikit.min.js"></script>
-<script src="js/uikit-icons.min.js"></script>
+<script src="js/index.js"></script>
+<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
