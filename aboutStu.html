@@ -8,53 +8,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-<div class="uk-container-expand">
-    <div class="uk-offcanvas-content">
-    <nav class="uk-navbar uk-grid-margin-small uk-navbar-container uk-margin" uk-sticky="bottom: #offset">
-        <div class="uk-navbar-left">
-            <a class="uk-navbar-toggle" href="#offcanvas-usage" uk-toggle>
-                <span uk-navbar-toggle-icon></span></a>
-            <a class="uk-navbar-item uk-logo" href="#">
-            <img src="img/logonr.png" height="163" width="137"/></a>
-            <span>Dashboard</span>
-        </div>
-        <div class="uk-navbar-right">
-            <ul class="uk-navbar-nav uk-iconnav">
-                <li><a href="#" uk-icon="icon: file-edit"></a></li>
-                <li><a href="#" uk-icon="icon: mail"></a></li>
-                <li><a href="#" uk-icon="icon: social"></a></li>
-                <li><a href="#" uk-icon="icon: pull"></a></li>
+<nav class="uk-navbar uk-grid-margin-small uk-navbar-container uk-margin" uk-sticky="bottom: #offset">
+    <div class="uk-navbar-left">
+        <a class="uk-navbar-toggle" href="#offcanvas-usage" uk-toggle>
+            <span uk-navbar-toggle-icon></span></a>
+        <a class="uk-navbar-item uk-logo" href="#">
+            <img id="logo" src="img/logonr.png" height="163" width="137"/></a>
+        <span>Dashboard</span>
+    </div>
+    <div class="uk-navbar-right">
+        <ul class="uk-navbar-nav uk-iconnav">
+            <li><a href="#" uk-icon="icon: file-edit"></a></li>
+            <li><a href="#" uk-icon="icon: mail"></a></li>
+            <li><a href="#" uk-icon="icon: social"></a></li>
+            <li><a href="#" uk-icon="icon: pull"></a></li>
+        </ul>
+    </div>
+</nav>
+<div id="offcanvas-usage" uk-offcanvas>
+    <div class="uk-offcanvas-bar">
+        <div class="uk-width-1-1@s uk-width-1-1@m">
+            <ul class="uk-nav uk-nav-default">
+                <li class="uk-active"><a href="#"><img class="uk-margin-left" src="img/img.png" height="98" width="96"/><span class="uk-margin-left">Admin Dashboard</span></a></li>
+                <li><a href="#"><img class="uk-margin-left" src="img/rec.png" height="98" width="96"/><span class="uk-margin-left">Student Records</span></a></li>
+                <li><a href="#"><img id="grnt" class="uk-margin-left" src="img/grant.png" height="102" width="96"/><span class="uk-margin-left">Grants/ Applications</span></a></li>
+                <li><a href="#"><img class="uk-margin-left" src="img/manage.png" height="98" width="96"/><span class="uk-margin-left">Manage Tags/ Categories</span></a></li>
+                <li><a href="#"><img class="uk-margin-left" src="img/Settings.png" height="98" width="96"/><span class="uk-margin-left">Admin Dashboard</span></a></li>
             </ul>
         </div>
-    </nav>
-        <div id="offcanvas-usage" uk-offcanvas>
-            <div class="uk-offcanvas-bar">
-                <div class="uk-width-1-1@s uk-width-1-1@m">
-                    <ul class="uk-nav uk-nav-default">
-                        <li class="uk-active"><a href="#"><img src="img/img.png" height="98" width="96"/><span class="uk-margin-left">Admin Dashboard</span></a></li>
-                        <li><a href="#"><img src="img/rec.png" height="98" width="96"/><span class="uk-margin-left">Student Records</span></a></li>
-                        <li><a href="#"><img src="img/grant.png" height="102" width="96"/><span class="uk-margin-left">Grants/ Applications</span></a></li>
-                        <li><a href="#"><img src="img/manage.png" height="98" width="96"/><span class="uk-margin-left">Manage Tags/ Categories</span></a></li>
-                        <li><a href="#"><img src="img/Settings.png" height="98" width="96"/><span class="uk-margin-left">Admin Dashboard</span></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
     </div>
-    <div class="uk-section uk-section-media uk-light uk-background-cover">
-        <div class="uk-container">
-
-            <h3>Section Media</h3>
-
-            <div class="uk-grid-match uk-child-width-1-3@m" uk-grid>
-                <div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+</div>
+</div>
+    <div class="pb-o pt-0 uk-section uk-section-media uk-light uk-background-cover">
+        <div class="uk-container uk-container-medium">
+            <div class="uk-grid">
+                <div class="pic">
+                    <img src="img/ahm.jpg">
                 </div>
                 <div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                </div>
-                <div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                    <h2 class="uk-text-bold uk-margin-medium-top mb-0">CENTURY FAVOUR</h2>
+                    <h3 class="mt-0 mb-0">Film Producer /Director</h3>
+                    <h5 class="mt-0 mb-0">DCA11 3D Animation</h5>
                 </div>
             </div>
         </div>
@@ -62,18 +56,167 @@
     <div id="mcontainer" class="uk-container uk-container-small">
         <ul uk-tab>
             <li class="uk-active"><a href="#">About</a></li>
-            <li><a href="#">Item</a></li>
-            <li><a href="#">Item</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Photos</a></li>
+            <li><a href="#">Applications</a></li>
+            <li><a href="#">Admin Comments</a></li>
         </ul>
     </div>
     <div class="uk-container uk-container-expand">
         <div style="background-color: #f83d34;height:" class="uk-section uk-section-media uk-light uk-background-cover">
-            <div id="mcontainer">
-                
+            <div id="mcontainer" class="uk-container uk-container-small">
+                <h2 style="color: #ffffff">Tags</h2>
+                <p class="aef" uk-margin>
+                    <button class="uk-button">#DCA11</button>
+                    <button class="uk-button">Film Producer</button>
+                    <button class="uk-button">Director</button>
+                    <button class="uk-button">#3D Animation</button>
+                    <button class="uk-button">#Portfolio Quality(Level B)</button>
+                    <button class="uk-button">#Team A Film</button>
+                    <button class="uk-button">#Grand Ball</button>
+                    <button class="uk-button">#DAN 300</button>
+                </p>
+                <div><img src="img/USER%20-%20STUDENT%20PROFILE.png"><span class="uk-text-bold uk-text-large uk-margin-left">About</span><sup class="divider"></sup></div>
+                <div class="mt-2 flex-container">
+                    <div class="flex-2 uk-margin-large-right">
+                        <p class="">I am a Media & Technology Enterpreneur. The Founder & CEO of Endgame Communications, Forefront Productions, Invisible Effects and Number One</p>
+                        <p class="">Through these companies, I provide Media, Technology and Strategic Communications services to People, Business, NGOs, Brands and Organisations, enabling them to grow,  excel and acjieve results.</p>
+                    </div>
+                    <div class="flex-1">
+                    <p class="uk-text-bold mb-0">DATE OF BIRTH</p>
+                    <p class="mt-0">19/9/1981</p>
+                    <p class="uk-text-bold mb-0">NATIONALITY</p>
+                    <p class="mt-0">Nigerian</p>
+                    <p class="uk-text-bold mb-0">LOCAL GOVERNMENT</p>
+                    <p class="mt-0">Isi-ala ngwa North</p>
+                    </div>
+                    <div class="flex-1">
+                        <p class="uk-text-bold mb-0">GENDER</p>
+                        <p class="mt-0">Male</p>
+                        <p class="uk-text-bold mb-0">STATE OF ORIGIN</p>
+                        <p class="mt-0">Abia State</p>
+                    </div>
+                </div>
             </div>
+
         </div>
         <div style="background-color: #ffffff;height:" class="uk-section uk-section-media uk-light uk-background-cover">
+            <div id="mcontainer" class="color-d-grey uk-container uk-container-small">
+                <div><img src="img/cntakt.png"><span id="redish" class="uk-text-bold uk-margin-left">Contact Information</span><sup class="divider-grey"></sup>
+                </div>
+                <div class="uk-container uk-container-expand mt-2">
+                    <div class="flex-container">
+                    <div class="flex-1">
+                        <p class="uk-text-bold mb-0">PHONE NO</p>
+                        <p class="mt-0">+234 8139120289</p>
+                    </div>
+                    <div class="flex-1">
+                        <p class="uk-text-bold mb-0">EMAIL ADDRESS</p>
+                        <p class="mt-0">Centuryfavour@gmail.com</p>
+                    </div>
+                    <div class="flex-1">
+                        <p class="uk-text-bold mb-0">FACEBOOK</p>
+                        <p class="mt-0">@centuryfavour</p>
+                    </div>
+                    <div class="flex-1">
+                        <p class="uk-text-bold mb-0">TWITTER</p>
+                        <p class="mt-0">@centuryfavour</p>
+                    </div>
+                    </div>
+                    <div class="flex-container">
+                    <div class="flex-1">
+                        <p class="uk-text-bold mb-0">ADDRESS 1</p>
+                        <p class="mt-0">Road 118 house 2B Gwarinpa Abuja</p>
+                    </div>
+                    <div class="flex-1">
+                        <p class="uk-text-bold mb-0">ADDRESS 2</p>
+                        <p class="mt-0">Road 118 house 2B Gwarinpa Abuja</p>
+                    </div>
+                    </div>
+                </div>
+                <div id="redish"><img id="ed" src="img/ed.png"><span class="uk-text-bold uk-margin-left">Educational information</span><sup class="divider-grey2"></sup>
+                </div>
+                <div class="mt-2 flex-container">
+                    <div class="flex-1">
+                        <p class="uk-text-bold mb-0">DELYORK</p>
+                        <p class="mt-0">2011</p>
+                    </div>
+                    <div class="flex-1">
+                        <p class="uk-text-bold mb-0">COURSE OF STUDY</p>
+                        <p class="mt-0">3D Animation</p>
+                    </div>
+                    <div class="flex-1">
+                        <p class="uk-text-bold mb-0">GPA</p>
+                        <p class="mt-0">4.1</p>
+                    </div>
+                </div>
+                <div><img id="skills" src="img/brain.png"><span id="redish" class="uk-text-bold uk-margin-left">Skills</span><sup class="divider-grey"></sup>
+                </div>
+                <p class="aef" uk-margin>
+                    <button class="uk-button uk-button-default rounded bg-grey btn">Computer Animation</button>
+                    <button class="uk-button uk-button-default rounded bg-grey btn">User Interface Design</button>
+                    <button class="uk-button uk-button-default rounded bg-grey btn">Graphic Design</button>
+                    <button class="uk-button uk-button-default rounded bg-grey btn">Photoshop</button>
+                    <button class="uk-button uk-button-default rounded bg-grey btn">Broadcast</button>
+                    <button class="uk-button uk-button-default rounded bg-grey btn">User Experience</button>
+                    <button class="uk-button uk-button-default rounded bg-grey btn">Film Production</button>
+                    <button class="uk-button uk-button-default rounded bg-grey btn">Advertising</button>
+                    <button class="uk-button uk-button-default rounded bg-grey btn">Editing</button>
+                    <button class="uk-button uk-button-default rounded bg-grey btn">Visual Effects</button>
+                    <button class="uk-button uk-button-default rounded bg-grey btn">Film Editing</button>
+                    <button class="uk-button uk-button-default rounded bg-grey btn">Documentary Production</button>
+                    <button class="uk-button uk-button-default rounded bg-grey btn">2D and 3D Animation visual Effects</button>
+                    <button class="uk-button uk-button-default rounded bg-grey btn">mobile Application Design</button>
+                    <button class="uk-button uk-button-default rounded bg-grey btn">VFX Supervision</button>
+                    <button class="uk-button uk-button-default rounded bg-grey btn">Copywriting</button>
+                    <button class="uk-button uk-button-default rounded bg-grey btn">television</button>
+                    <button class="uk-button uk-button-default rounded bg-grey btn">Film Animation</button>
+                    <button class="uk-button uk-button-default rounded bg-grey btn">Documentaries</button>
+                </p>
+                <div><img id="port" src="img/portflio.png"><span id="redish" class="uk-text-bold uk-margin-left">Portfolio</span><sup class="divider-grey"></sup>
+                </div>
+                <div id="moz" class="flex-container  uk-child-width-expand\@s">
+                <div class="flex-1">
+                    <img class="uk-align-center mb-0" src="img/minmoz.png">
+                    <div class="flex-container">
+                        <div class="flex-1">
+                            <h1 class="uk-text-center color-d-grey mb-0 uk-text-large">PROJECT</h1>
+                            <h1 class="uk-text-center color-d-grey mt-0 uk-text-large">Mi & Mozi</h1>
+                        </div>
+                    </div>
+                    <div class="flex-container">
+                        <div class="flex-1">
+                            <h1 class="uk-text-center color-d-grey mb-0 uk-text-large">DATE</h1>
+                            <h1 class="uk-text-center color-d-grey mt-0 uk-text-large">Nov 2016</h1>
+                        </div>
+                        <div class="flex-1">
+                            <h1 class="uk-text-center color-d-grey mb-0 uk-text-large">ROLE</h1>
+                            <h1 class="uk-text-center color-d-grey mt-0 uk-text-large">Producer & Director</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-1">
+                    <img id="moz" class="mb-0 uk-align-center" src="img/proj.png">
+                    <div class="flex-container">
+                        <div class="flex-1">
+                            <h1 class="uk-text-center color-d-grey mb-0 uk-text-large">PROJECT</h1>
+                            <h1 class="uk-text-center color-d-grey mt-0 uk-text-large">Fi bank Ad</h1>
+                        </div>
+                    </div>
+                    <div class="flex-container">
+                        <div class="flex-1">
+                            <h1 class="uk-text-center color-d-grey mb-0 uk-text-large">FORMAT</h1>
+                            <h1 class="uk-text-center color-d-grey mt-0 uk-text-large">TV Ad</h1>
+                        </div>
+                        <div class="flex-1">
+                            <h1 class="uk-text-center color-d-grey mb-0 uk-text-large">ROLE</h1>
+                            <h1 class="uk-text-center color-d-grey mt-0 uk-text-large">Producer & Director</h1>
+                        </div>
+                    </div>
+                </div>
+                </div>
 
+            </div>
         </div>
     </div>
 </div>
