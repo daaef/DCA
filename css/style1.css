@@ -82,16 +82,33 @@ body {
   border-radius: 50%;
   margin-right: 15px;
 }
+div.one16{
+  margin-top: 116px!Important;
+}
 body.login{
   background-image: url(../img/darkbg.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
+}
+div.s8{
+  margin-top: 39px!important;
+}
+.h144{
+  height: 166.828px;
 }
 body.profile{
   background-image: url(../img/topbg.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
   background-position-y: 10px;
+}
+.create{
+  background-image: url(../img/breadbg.jpg)!important;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+html{
+  background-color: transparent;!important;
 }
 .right>li>a{
   padding: 2px;
@@ -538,6 +555,20 @@ form>button{
 .def{
   background-color: #c3dd3f!important;
 }
+.bef>{
+  padding: .9em;
+}
+.front{
+  z-index:20000;
+  top: 20px;;
+  position: absolute;
+  right: 30px;
+}
+.bef>a>img {
+  width:25px;
+  max-width:none;
+  height:25px;
+}
 @media (max-width: 360px)
 {
   .badges>div>h6{
@@ -551,6 +582,11 @@ form>button{
 }
 @media (max-width: 959px)
 {
+  .front{
+    margin-top: 2px!important;
+    top: 2px;
+    right: 5px;;
+  }
   body.login{
     background-size: 300%;
   }
@@ -637,5 +673,15 @@ form>button{
     margin-left: 5%;
     top: -0.6em;
     display: none;
+  }
+  .h144{
+    height:auto;
+    margin-top: 10%!important;
+  }
+  .h144>h2{
+    font-size: 1.8rem!important
+  }
+  .inc{
+    width:100%;
   }
 }

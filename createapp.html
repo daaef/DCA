@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DCA Project</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/uikit.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/style1.css">
+
+</head>
+<body class="create">
+<div id="wrapper">
+    <!-- Sidebar -->
+    <nav class="nav m-0" id="sidebar-wrapper" role="navigation">
+        <ul class="li nav flex-column">
+            <li class="nav-item active">
+                <img class="ml-3" src="img/admin.png"> <a class="ml-2 nav-link active" href="#">Admin Dashboard</a>
+            </li>
+            <li class="nav-item">
+                <img class="ml-3" style="padding: 5px;" src="img/studentrec.png"> <a class="ml-2 nav-link" href="#">Student Records</a>
+            </li>
+            <li class="nav-item">
+                <img class="ml-3" style="width: 55px;" src="img/grants.png"> <a class="nav-link " href="#">Grants/Applications</a>
+            </li>
+            <li class="nav-item">
+                <img class="ml-3" style="padding: 5px;" src="img/mantags.png"> <a class="nav-link ml-2" href="#">Manage Tags/Categories</a>
+            </li>
+            <li class="nav-item">
+                <img class="ml-3" style="padding: 4px;"  src="img/settings.png"> <a class="nav-link ml-2" href="#">Settings</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- /#sidebar-wrapper -->
+</div>
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+        <nav class="navbar fixed-top navbar-toggleable-md navbar-light bg-faded">
+            <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+                <span class="hamb-top"></span>
+                <span class="hamb-middle"></span>
+                <span class="hamb-bottom"></span>
+            </button>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                <img src="img/logonr.png" width="30" height="30" alt=""><span class="ml-4">Dashboard</span>
+            </a>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="nav right">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#"><img class="img-fluid" src="img/edit.png"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><img class="img-fluid" src="img/keyhold.png"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><img class="img-fluid" src="img/message.png"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><img class="img-fluid" src="img/share.png"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><img class="img-fluid" src="img/download.png"></a>
+                </li>
+            </ul>
+            </div>
+        </nav>
+        <div class="one16 color-white mt-5 mb-b container">
+            <h4 class="heavy">DCA / New Application</h4>
+        </div>
+        <div class="m-0 bg-white container-fluid s8">
+            <div class="col-md-1 front">
+                <div class="badge badge-danger bef d p-2 mt-4 rounded-circle float-right">
+                    <a href="#"> <img src="img/settings.png"></a>
+                </div>
+            </div>
+            <div class="p-0 pt-5 container">
+                <div class="row m-0 p-0">
+                    <div class="p-0 col-md-3">
+                        <img class="w-100" src="img/appbg.jpg">
+                        <button class="bg-redish uk-button heavy uk-text-capitalize mt-5 color-white btn-block">Add Question</button>
+                    </div>
+                    <div class="p-0 pl-5 col-md-8">
+                        <div class="h144 col-md-12 p-0 m-0">
+                            <h2 class="color-redish">Title of Application</h2>
+                            <h6 class="color-black">About the application</h6>
+                        </div>
+                        <button class="inc bg-redish uk-button heavy uk-text-capitalize mt-5 color-white">Publish</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- /#page-content-wrapper -->
+
+
+</div>
+<script src="js/jquery.js"></script>
+<script src="js/index.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
