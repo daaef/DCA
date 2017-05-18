@@ -451,4 +451,7 @@ form>button{
   body.login{
     background-size: 300%;
   }
+  .ten{
+    margin-top: 10%;
+  }
 }
