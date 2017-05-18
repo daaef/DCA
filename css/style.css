@@ -59,14 +59,14 @@
     height:60px;
     width: 35px;
 }
+.color-redish{
+    color: #f83d34!important;
+}
 .bg-grey{
     background-color: #ccc!important;
 }
 .bg-redish{
     background-color: #f83d34!important;
-}
-.color-redish{
-    color: #f83d34!important;
 }
 .bg-black{
     background-color: black!important;
