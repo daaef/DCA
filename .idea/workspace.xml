@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91604836-ab33-4880-859d-db5fe1dcd7a8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style1.css" afterPath="$PROJECT_DIR$/css/style1.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,8 +59,8 @@
       <file leaf-file-name="style1.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style1.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="100" column="14" lean-forward="false" selection-start-line="100" selection-start-column="14" selection-end-line="100" selection-end-column="14" />
+            <state relative-caret-position="277">
+              <caret line="523" column="1" lean-forward="true" selection-start-line="523" selection-start-column="1" selection-end-line="523" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -115,6 +114,7 @@
       <find>body</find>
       <find>.b</find>
       <find>page-content-wrapper</find>
+      <find>.size</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -148,8 +148,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="166" />
-    <option name="y" value="224" />
+    <option name="x" value="117" />
+    <option name="y" value="137" />
     <option name="width" value="1289" />
     <option name="height" value="745" />
   </component>
@@ -671,7 +671,7 @@
       <workItem from="1495004586352" duration="9348000" />
       <workItem from="1495024231219" duration="11265000" />
       <workItem from="1495042150942" duration="32515000" />
-      <workItem from="1495113506585" duration="14815000" />
+      <workItem from="1495113506585" duration="15317000" />
     </task>
     <task id="LOCAL-00001" summary="linked some files used from d main site">
       <created>1493225207307</created>
@@ -747,10 +747,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154659000" />
+    <option name="totallyTimeSpent" value="155161000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="166" y="224" width="1289" height="745" extended-state="0" />
+    <frame x="117" y="137" width="1289" height="745" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1185,8 +1185,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style1.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="100" column="14" lean-forward="false" selection-start-line="100" selection-start-column="14" selection-end-line="100" selection-end-column="14" />
+        <state relative-caret-position="277">
+          <caret line="523" column="1" lean-forward="true" selection-start-line="523" selection-start-column="1" selection-end-line="523" selection-end-column="1" />
           <folding />
         </state>
       </provider>

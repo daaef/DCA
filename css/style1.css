@@ -532,6 +532,9 @@ form>button{
 .size>a>img{
   width:38px;
 }
+.size{
+  position: static;
+}
 .def{
   background-color: #c3dd3f!important;
 }
