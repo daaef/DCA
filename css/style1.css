@@ -419,11 +419,11 @@ form>button{
 .round {
   border-radius: 20px;
 }
-.ten>div>img{
+.ten>div>div>img{
   width: 143.3px;
   height: 143.3px;
 }
-.ten>div>h3{
+.ten>div>div>h3{
   font-size: 25px;
   color: #e6e6e6;
 }
