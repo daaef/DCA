@@ -452,6 +452,10 @@ form>button{
     background-size: 300%;
   }
   .ten{
-    margin-top: 10%;
+    margin-top: 25%;
+  }
+  .sticky-top{
+    position: fixed;
+    width: 100%;
   }
 }
