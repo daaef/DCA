@@ -11,9 +11,159 @@
   font-weight: normal;
   font-style: normal;
 }
+label.form-check-label>img.radio.b1{
+  width: 174px;
+}
+body.students{
+  background-image: url(../img/topbg2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.xsm{
+  font-size: x-small;
+}
+.sm{
+  font-size: small;
+}
+.tright{
+  position: absolute;
+  right:80px;
+  top: 0px;
+}
+
+.pad{
+  padding-right:16px ;
+  padding-left:19px ;
+  padding-top: 13px;
+  padding-bottom: 11px;
+}
+
+.posbt{
+  position: absolute;
+  top:70px;
+  right: 60px;
+}
+input#optionsRadios1 {
+  width: 27px;
+  height: 27px;
+}
+
+.label--checkbox {
+  position: relative;
+  margin: .5rem;
+  font-family: Arial, sans-serif;
+  line-height: 135%;
+  cursor: pointer;
+}
+
+.checkbox {
+  position: relative;
+  top: -0.375rem;
+  margin: 0 1rem 0 0;
+  cursor: pointer;
+}
+.checkbox:before {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  content: "";
+  position: absolute;
+  left: 0;
+  z-index: 1;
+  width: 25px;
+  height: 25px;
+  border: 2px solid #000;
+}
+.checkbox:checked:before {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  height: .5rem;
+  border-color: #009688;
+  border-top-style: none;
+  border-right-style: none;
+}
+.checkbox:after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 25px;
+  height: 25px;
+  background: #fff;
+  cursor: pointer;
+}
+
+.button--round {
+  -webkit-transition: 0.3s background ease-in-out;
+  -moz-transition: 0.3s background ease-in-out;
+  transition: 0.3s background ease-in-out;
+  width: 2rem;
+  height: 2rem;
+  background: #5677fc;
+  border-radius: 50%;
+  box-shadow: 0 0.125rem 0.3125rem 0 rgba(0, 0, 0, 0.25);
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+}
+.button--round i {
+  font-size: 1rem;
+  line-height: 220%;
+  vertical-align: middle;
+}
+.button--round:hover {
+  background: #000;
+}
+
+.button--sticky {
+  position: fixed;
+  right: 2rem;
+  top: 16rem;
+}
+
+.content {
+  -webkit-animation-duration: 0.4s;
+  animation-duration: 0.4s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: slideUp;
+  animation-name: slideUp;
+  -webkit-animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@-webkit-keyframes slideUp {
+  0% {
+    -webkit-transform: translateY(6.25rem);
+    transform: translateY(6.25rem);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@keyframes slideUp {
+  0% {
+    -webkit-transform: translateY(6.25rem);
+    transform: translateY(6.25rem);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+
+
+
+
 body {
   position: relative;
   overflow-x: hidden;
+  height:100%;
 }
 
 .one, .two{
@@ -24,6 +174,10 @@ body {
 
 .color-redish{
   color: #f83d34!important;
+}
+input.form-check-input {
+  width: 25px;
+  height: 25px;
 }
 .color-black{
   color: #000!important;
@@ -83,7 +237,7 @@ body {
   margin-right: 15px;
 }
 div.one16{
-  margin-top: 116px!Important;
+  padding-top: 56px!Important;
 }
 body.login{
   background-image: url(../img/darkbg.jpg);
@@ -106,9 +260,6 @@ body.profile{
   background-image: url(../img/breadbg.jpg)!important;
   background-repeat: no-repeat;
   background-size: 100%;
-}
-html{
-  background-color: transparent;!important;
 }
 .right>li>a{
   padding: 2px;
@@ -391,6 +542,9 @@ ul.nav.flex-column {
   background-color: black;
   top: 5px;
 }
+.bg-blueish{
+  background-color: #00aba8!important;
+}
 .hamburger.is-closed .hamb-middle {
   background-color: black;
   margin-top: -2px;
@@ -454,13 +608,27 @@ a{
 .w-afe{
   width:65%;
 }
-
+.mnew{
+  margin-left: 36px;
+}
 .b{
-  border: 15px solid grey;
+  border: 17px solid grey;
+}
+.t6{
+  font-size: 36px;
+}
+.b2{
+  border: 9px solid grey;
 }
 .b1{
   border: 10px solid #333333;
   border-radius: 50%;
+}
+.border{
+  border:solid 1px #acacac;
+}
+.set{
+  background-color: #f15a25!important;
 }
 .hamburger.is-open:hover before {
   -webkit-transform: translate3d(-100px, 0, 0);
@@ -508,6 +676,9 @@ form>button{
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.4);
   z-index: 1;
+}
+.pten{
+  padding-top:10%;
 }
 .uk-subnav>*>:first-child{
   text-transform: capitalize;
@@ -584,11 +755,14 @@ form>button{
 {
   .front{
     margin-top: 2px!important;
-    top: 2px;
-    right: 5px;;
+    top: -22px;
+    right: 0px;;
   }
   body.login{
     background-size: 300%;
+  }
+  body.students{
+    background-size: 400%;
   }
   .badges>div>div.a{
     padding: .9rem!important;
@@ -683,5 +857,11 @@ form>button{
   }
   .inc{
     width:100%;
+    display: block;
+  }
+  .remove{
+   padding: 0px!important;
+    margin: 0px!important;
+    clear: both;
   }
 }

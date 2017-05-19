@@ -1,17 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html id="Login-container">
 <head>
     <title>DCA Project</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/uikit.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/style1.css">
-
 </head>
-<body class="create">
+<body class="login">
 <div id="wrapper">
     <!-- Sidebar -->
     <nav class="nav m-0" id="sidebar-wrapper" role="navigation">
@@ -37,7 +35,7 @@
 </div>
     <!-- Page Content -->
     <div id="page-content-wrapper">
-        <nav class="navbar fixed-top navbar-toggleable-md navbar-light bg-faded">
+        <nav class="navbar fixed-top w-100 navbar-toggleable-md navbar-light bg-faded">
             <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
                 <span class="hamb-top"></span>
                 <span class="hamb-middle"></span>
@@ -69,33 +67,35 @@
             </ul>
             </div>
         </nav>
-        <div class="one16 color-white mt-5 mb-b container">
-            <h4 class="heavy">DCA / New Application</h4>
-        </div>
-        <div class="m-0 bg-white container-fluid s8">
-            <div class="col-md-1 front">
-                <div class="badge badge-danger bef d p-2 mt-4 rounded-circle float-right">
-                    <a href="#"> <img src="img/settings.png"></a>
-                </div>
-            </div>
-            <div class="p-0 pt-5 container">
-                <div class="row m-0 p-0">
-                    <div class="p-0 col-md-3">
-                        <img class="w-100" src="img/appbg.jpg">
-                        <button class="bg-redish uk-button heavy uk-text-capitalize mt-5 color-white btn-block">Add Question</button>
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-8 ten offset-md-2">
+                <div class="col-md-4 pten offset-md-4">
+                    <div class="text-center flex-md-row">
+                        <img class="b1 img-fluid" src="img/centimage.jpg">
+                        <h3 class="mt-4">Welcome</h3>
+                        <h3 class="mt-1">Century Favour</h3>
                     </div>
-                    <div class="p-0 remove pl-5 col-md-8">
-                        <div class="h144 col-md-12 p-0 m-0">
-                            <h2 class="color-redish">Title of Application</h2>
-                            <h6 class="color-black">About the application</h6>
+                </div>
+                <div class="row mt-5 badges text-center p-0 m-0">
+                    <div class="col-3 offset-3">
+                        <div class="badge badge-danger a pt-4 pb-4 pl-3 pr-4 rounded-circle">
+                            <a href="adprof.html"><img src="img/about.png"></a>
                         </div>
-                        <button class="inc bg-redish uk-button heavy uk-text-capitalize mt-5 color-white">Publish</button>
+                        <h6 class="color-white mt-3 text-center">DCA profile</h6>
+                    </div>
+                    <div class="col-3">
+                        <div class="badge badge-info e p-4 badgepr-3 rounded-circle">
+                            <a href="#"> <img src="img/grants.png"></a>
+                        </div>
+                        <h6 class="color-white mt-3 text-center">Applications</h6>
                     </div>
                 </div>
             </div>
+            </div>
         </div>
+    </div>
     <!-- /#page-content-wrapper -->
-
 
 </div>
 <script src="js/jquery.js"></script>
